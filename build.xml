@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="weblogic-compat" default="jar">
+    <target name="jar">
+    	<jar destfile="weblogic10-compat.jar">
+    		<fileset dir="classes">
+    			<include name="**"/>
+    		</fileset>
+    	</jar>
+    </target>
+</project>
